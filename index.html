@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Math2Store — practical digital resources for learning, creativity and healthy living.">
+  <title>Math2Store — Learn • Practice • Create</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="Math2Store home">
+      <span class="brand-mark">M²</span>
+      <span><strong>Math<span>2</span>Store</strong><small>Learn • Practice • Create</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#products" data-filter-link="Math">Math</a>
+      <a href="#products" data-filter-link="Arabic">Arabic</a>
+      <a href="#products" data-filter-link="Creative">Creative</a>
+      <a href="#products" data-filter-link="Healthy Living">Healthy Living</a>
+      <a href="#products" data-filter-link="Free">Free</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search products..."></div>
+      <a class="icon-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener" aria-label="Visit store">🛍</a>
+      <a class="btn btn-primary small" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">Visit Our Payhip Store ↗</a>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">DIGITAL RESOURCES FOR A BRIGHTER TOMORROW</div>
+      <h1>Small steps.<br><span>Bright futures.</span></h1>
+      <p>Fun, practical digital resources for curious minds — from math and Arabic handwriting to coloring, fine art and healthy living.</p>
+      <div class="hero-benefits">
+        <div><b>♥</b><span><strong>Engaging</strong><small>for all ages</small></span></div>
+        <div><b>✦</b><span><strong>Learn</strong><small>at your pace</small></span></div>
+        <div><b>↓</b><span><strong>Instant</strong><small>download</small></span></div>
+        <div><b>★</b><span><strong>Affordable</strong><small>& high quality</small></span></div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#products">Explore All Products →</a>
+        <a class="btn btn-light" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Start with a FREE resource</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/hero-kids.png" alt="Children learning and creating">
+      <div class="floating-note note-one">Learn<br>Create<br>Grow ✦</div>
+      <div class="floating-note note-two">BIG<br>DREAMS<br>START HERE!</div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust-grid">
+    <div>🚀 <strong>Learn at Your Pace</strong><span>Build skills step by step</span></div>
+    <div>🛡 <strong>Instant Download</strong><span>Get your files immediately</span></div>
+    <div>♥ <strong>Made for Curious Minds</strong><span>Fun & educational</span></div>
+    <div>👥 <strong>Support Independent Creators</strong><span>Your purchase makes a difference</span></div>
+  </div>
+</section>
+
+<section class="products-section" id="products">
+  <div class="container">
+    <div class="section-heading">
+      <div><span class="eyebrow">EXPLORE THE COLLECTION</span><h2>Resources made to <span>inspire.</span></h2></div>
+      <p>Choose a category, find a resource, and learn at your own pace.</p>
+    </div>
+    <div class="filters">
+      <button class="filter active" data-filter="All">All Products</button>
+      <button class="filter" data-filter="Math">▦ Math</button>
+      <button class="filter" data-filter="Arabic">▤ Arabic</button>
+      <button class="filter" data-filter="Creative">◉ Creative</button>
+      <button class="filter" data-filter="Healthy Living">♥ Healthy Living</button>
+      <button class="filter" data-filter="Free">🎁 Free</button>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+    <div id="noResults" class="no-results" hidden>No products match your search.</div>
+  </div>
+</section>
+
+<section class="free-cta">
+  <div class="container free-card">
+    <div><span class="free-icon">🎁</span><div><span class="eyebrow">START FOR FREE</span><h2>Learn Arabic from the beginning.</h2><p>Trace the Arabic letters, recognize them, and practice your first words.</p></div></div>
+    <a class="btn btn-green" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Get It Free →</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-card">
+    <div class="about-mark">M²</div>
+    <div><span class="eyebrow">ABOUT MATH2STORE</span><h2>Simple resources. Real practice.</h2><p>Math2Store brings together practical digital learning resources for math, Arabic handwriting, creativity, fine art and healthy living — designed to be clear, useful and easy to enjoy.</p></div>
+    <a class="btn btn-primary" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">Visit the Store ↗</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="brand footer-brand"><span class="brand-mark">M²</span><span><strong>Math<span>2</span>Store</strong><small>Learn • Practice • Create</small></span></div>
+    <p>Digital educational resources for a brighter tomorrow.</p>
+    <div class="social"><span>Follow Us</span><div><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="Pinterest">P</a><a href="#" aria-label="Instagram">◎</a></div></div>
+    <div><a class="btn btn-primary" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">Visit Our Payhip Store ↗</a><small>🔒 Safe & Secure Checkout</small></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
