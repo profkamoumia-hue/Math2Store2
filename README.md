@@ -1,6 +1,8 @@
-# Math2Store Modern
-Modern GitHub Pages storefront for Math2Store.
-- Front-end: GitHub Pages
-- Checkout and delivery: Payhip
-- Product buttons link directly to each Payhip product
-- Responsive layout with category filters and search
+# Math2Store — Polished Final
+Upload all four files to the repository root:
+- index.html
+- style.css
+- script.js
+- hero-kids.png
+
+The hero image is intentionally in the root so it matches the current working GitHub setup.
