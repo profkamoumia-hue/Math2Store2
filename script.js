@@ -1,4 +1,5 @@
 const products = [
+  {title:"Math Made Easy – Small Steps, Big Math Success!",cat:"Math",filter:"Math",price:"$2.00",img:"math-made-easy-small-steps-cover.png",url:"https://payhip.com/b/5Gcg4"},
  {title:"Timeless Earth: From Matera to Ghardaïa",cat:"Fine Art",filter:"Creative",price:"$2.70",old:"$3.00",img:"https://pe56d.s3.amazonaws.com/o_1jvh9bbq01tpo13rl1q9t1r31sn1a.png",url:"https://payhip.com/b/pbgIR"},
  {title:"Timeless Citadel: Matera & Casbah",cat:"Fine Art",filter:"Creative",price:"$2.00",img:"https://pe56d.s3.amazonaws.com/o_1jvh949mklam67molf110o19r01a.png",url:"https://payhip.com/b/60kQH"},
  {title:"Fit & Delicious: Healthy Cakes for Every Goal",cat:"Healthy Living",filter:"Healthy Living",price:"$6.30",old:"$7.00",img:"https://pe56d.s3.amazonaws.com/o_1jul7i53egf22c8dn8114v12rj1c.png",url:"https://payhip.com/b/BxIX5"},
