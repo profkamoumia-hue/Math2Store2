@@ -1,22 +1,5 @@
-Math2Store2 — Full Rebuilt Website
+Math2Store2 — restored complete package
 
-Files:
-- index.html
-- style.css
-- script.js
-- hero-kids.png
-- math-made-easy-small-steps-cover.png
-- coloring-adventure-50-pages.png
+Includes the Math Made Easy – Small Steps, Big Math Success! product (Payhip 5Gcg4) and Coloring Adventure 50 Fun Pages (Payhip mu9qx).
 
-The new product is included in script.js:
-Coloring Adventure: 50 Fun Pages for Kids Color • Create • Imagine!
-Price: $1.60
-Payhip: https://payhip.com/b/mu9qx
-
-GitHub Pages:
-1. Upload/replace all files in the repository root.
-2. Keep the PNG files in the same folder as index.html.
-3. Wait for GitHub Pages to publish.
-4. Hard refresh the page with Ctrl+F5.
-
-No changes to n8n are required.
+Upload all files in this folder to the GitHub Pages repository root, replacing the previous files. Keep the PNG files beside index.html.
