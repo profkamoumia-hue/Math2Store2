@@ -1,10 +1,22 @@
-Math2Store update – new Payhip product
+Math2Store2 — Full Rebuilt Website
 
-Upload these two files to the root of the Math2Store2 GitHub repository:
-1. script.js (replace the existing script.js)
-2. coloring-adventure-50-pages.png (new file)
+Files:
+- index.html
+- style.css
+- script.js
+- hero-kids.png
+- math-made-easy-small-steps-cover.png
+- coloring-adventure-50-pages.png
 
-New product:
+The new product is included in script.js:
 Coloring Adventure: 50 Fun Pages for Kids Color • Create • Imagine!
 Price: $1.60
 Payhip: https://payhip.com/b/mu9qx
+
+GitHub Pages:
+1. Upload/replace all files in the repository root.
+2. Keep the PNG files in the same folder as index.html.
+3. Wait for GitHub Pages to publish.
+4. Hard refresh the page with Ctrl+F5.
+
+No changes to n8n are required.

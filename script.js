@@ -1,4 +1,5 @@
 const products = [
+  {title:"Math Made Easy – Small Steps, Big Math Success!",cat:"Math",filter:"Math",price:"$2.00",img:"math-made-easy-small-steps-cover.png",url:"https://payhip.com/b/5Gcg4"},
  {title:"Timeless Earth: From Matera to Ghardaïa",cat:"Fine Art",filter:"Creative",price:"$2.70",old:"$3.00",img:"https://pe56d.s3.amazonaws.com/o_1jvh9bbq01tpo13rl1q9t1r31sn1a.png",url:"https://payhip.com/b/pbgIR"},
  {title:"Timeless Citadel: Matera & Casbah",cat:"Fine Art",filter:"Creative",price:"$2.00",img:"https://pe56d.s3.amazonaws.com/o_1jvh949mklam67molf110o19r01a.png",url:"https://payhip.com/b/60kQH"},
  {title:"Fit & Delicious: Healthy Cakes for Every Goal",cat:"Healthy Living",filter:"Healthy Living",price:"$6.30",old:"$7.00",img:"https://pe56d.s3.amazonaws.com/o_1jul7i53egf22c8dn8114v12rj1c.png",url:"https://payhip.com/b/BxIX5"},
@@ -8,8 +9,8 @@ const products = [
  {title:"Ten Golden Tips for Excelling in Math",cat:"Math",filter:"Math",price:"$2.00",img:"https://pe56d.s3.amazonaws.com/o_1jla18uls2pmo9kft91d0on8a17.png",url:"https://payhip.com/b/XC0HE"},
  {title:"أكتبها بنجاح – Early Arabic Letters Series",cat:"Arabic",filter:"Arabic",price:"$2.70",old:"$3.00",img:"https://pe56d.s3.amazonaws.com/o_1jtemvho1185g2ha1rahj8114ui15.png",url:"https://payhip.com/b/OCSYn"},
  {title:"Math Made Easy: Addition & Subtraction (Ages 6–8)",cat:"Math",filter:"Math",price:"$1.35",old:"$1.50",img:"https://pe56d.s3.amazonaws.com/o_1jte8fs8u1fq61cp1a0s62susg1m.png",url:"https://payhip.com/b/c14Vq"},
- {title:"Master the writing of Arabic letters",cat:"Arabic",filter:"Arabic",price:"$3.55",img:"https://pe56d.s3.amazonaws.com/o_1jtemtkb010681fdg1e5u1hg1rnr15.png",url:"https://payhip.com/b/5VpCr"},
- {title:"Coloring Adventure: 50 Fun Pages for Kids Color • Create • Imagine!",cat:"Creative",filter:"Creative",price:"$1.60",img:"coloring-adventure-50-pages.png",url:"https://payhip.com/b/mu9qx"},
+ {title:"Master the writing of Arabic letters",cat:"Arabic",filter:"Arabic",price:"$3.55",img:"https://pe56d.s3.amazonaws.com/o_1jtemtkb010681fdg1e5u1hg1rnr15.png",url:"https://payhip.com/b/5VpCr"}
+  {title:"Coloring Adventure: 50 Fun Pages for Kids Color • Create • Imagine!",cat:"Creative",filter:"Creative",price:"$1.60",img:"coloring-adventure-50-pages.png",url:"https://payhip.com/b/mu9qx"},
 ];
 
 const grid=document.getElementById("productGrid");
